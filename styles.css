@@ -6,6 +6,7 @@ body {
     scroll-behavior: smooth;
     background-color: #f4f4f9;
 }
+
 header {
     position: relative;
     color: #ffffff;
@@ -19,6 +20,7 @@ header {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
         url('https://images.unsplash.com/photo-1553913861-c3452e418153?q=80&w=1974&auto=format&fit=crop') no-repeat center center/cover;
 }
+
 header h1 {
     font-weight: 600;
     font-size: 4.5rem;
@@ -26,6 +28,7 @@ header h1 {
     letter-spacing: 2px;
     animation: fadeInDown 2s ease-in-out;
 }
+
 header p {
     font-weight: 300;
     font-size: 1.5rem;
@@ -35,11 +38,12 @@ header p {
 
 @keyframes fadeInDown {
     from { opacity: 0; transform: translateY(-30px);}
-    to { opacity: 1; transform: translateY(0);}
+    to   { opacity: 1; transform: translateY(0);}
 }
+
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px);}
-    to { opacity: 1; transform: translateY(0);}
+    to   { opacity: 1; transform: translateY(0);}
 }
 
 nav {
@@ -50,6 +54,7 @@ nav {
     text-align: center;
     z-index: 99;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -58,9 +63,11 @@ nav a {
     font-size: 1.1rem;
     transition: color 0.2s;
 }
+
 nav a:hover {
     color: #00b894;
 }
+
 .container {
     margin: 40px auto;
     max-width: 900px;
@@ -69,16 +76,19 @@ nav a:hover {
     border-radius: 16px;
     box-shadow: 0 4px 28px rgba(30, 58, 138, 0.12);
 }
+
 h2 {
     color: #2274a5;
     font-weight: 600;
 }
+
 .dynamic-section {
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
     margin-top: 25px;
 }
+
 .card {
     flex: 1 1 245px;
     min-width: 225px;
@@ -93,27 +103,35 @@ h2 {
     align-items: flex-start;
     transition: box-shadow 0.15s;
 }
+
 .card:hover {
     box-shadow: 0 4px 28px rgba(30, 58, 138, 0.18);
 }
+
 .card-details {
     margin-top: 9px;
     font-size: 1rem;
     color: #466184;
     min-height: 38px;
 }
+
 .card-link {
     color: #3498db;
     font-weight: 600;
     text-decoration: underline;
     transition: color 0.2s;
+    display: block;
+    margin-top: 10px;
 }
+
 .card-link:hover {
     color: #21618c;
 }
+
 form {
     margin-top: 20px;
 }
+
 input, textarea {
     width: 100%;
     padding: 9px;
@@ -122,6 +140,7 @@ input, textarea {
     border-radius: 4px;
     font-size: 1rem;
 }
+
 button[type="submit"] {
     background-color: #2274a5;
     color: #fff;
@@ -133,9 +152,11 @@ button[type="submit"] {
     cursor: pointer;
     transition: background 0.2s;
 }
+
 button[type="submit"]:hover {
     background-color: #184e71;
 }
+
 @media (max-width: 700px) {
     .dynamic-section {
         flex-direction: column;
