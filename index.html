@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoDiagnostics - Your Vehicle Diagnostics Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Auto Diagnostics</h1>
+        <p>Your trusted resource for vehicle diagnostics and repair</p>
+    </header>
+    <nav id="navbar">
+        <a href="#about">About</a>
+        <a href="#guides">Guides</a>
+        <a href="#tools">Tools</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#repositories">Repositories</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About AutoDiagnostics</h2>
+            <p>AutoDiagnostics is a leading online resource dedicated to helping car owners and mechanics diagnose and repair vehicle issues. Our team of experts provides clear, concise guides and tool recommendations to tackle any automotive challenge.</p>
+        </div>
+    </section>
+
+    <section id="guides">
+        <div class="container">
+            <h2>Guides</h2>
+            <div class="dynamic-section" id="guides-section">
+                <div class="card">
+                    <div>How to Read OBD-II Codes</div>
+                    <div class="card-details">Step-by-step guide to accessing and interpreting trouble codes with a standard scanner.</div>
+                </div>
+                <div class="card">
+                    <div>Performing Basic ECU Flashing</div>
+                    <div class="card-details">Learn the essentials of safely flashing your vehicle’s ECU using open-source tools.</div>
+                </div>
+                <div class="card">
+                    <div>Essential Tools for Garage Diagnostics</div>
+                    <div class="card-details">Overview of tools every DIY or professional should have on hand.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools">
+        <div class="container">
+            <h2>Recommended Tools</h2>
+            <div class="dynamic-section" id="tools-section"></div>
+        </div>
+    </section>
+
+    <section id="downloads">
+        <div class="container">
+            <h2>Downloads</h2>
+            <div class="dynamic-section" id="downloads-section"></div>
+        </div>
+    </section>
+
+    <section id="repositories">
+        <div class="container">
+            <h2>GitHub Repositories</h2>
+            <div class="dynamic-section" id="repositories-section"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email us at <a href="mailto:info@autodiagnostics.com">info@autodiagnostics.com</a></p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input id="name" type="text" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" rows="4" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
